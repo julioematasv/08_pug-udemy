@@ -4,7 +4,7 @@ html(lang="es-es")
         meta(charset="UTF-8")
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title Portada
+        title Portada | Curso PUG
     body
 
 
@@ -12,3 +12,12 @@ html(lang="es-es")
             h1 Hola estoy aprendiendo PUG
             p
                 span Así se indenta con PUG
+            //- Esto es un comentario en PUG que no se interpreta
+            // Este comentario si se ve porque no lleva el guión
+
+            //- etiquetas con atributos en PUG:
+
+            a(href="http://www.julioemata.es",
+                title="Sitio Julio Mata",
+                target="_blank"
+            ) Mi sitio Web
