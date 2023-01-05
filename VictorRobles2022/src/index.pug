@@ -31,3 +31,22 @@ html(lang="es-es")
 
             //- Mostrar imagenes.
             img(src="img/logoLaragon2.png", alt="Logo")
+
+            //- ejemplo de indentación manual con una lista, ver 2 ejemplos:
+            //- ejemplo largo:
+            ul.lista
+                li.elemento
+                    a(href="#").enlace Enlace 1
+                li.elemento
+                    a(href="#").enlace Enlace 2
+                li.elemento
+                    a(href="#").enlace Enlace 3
+
+            //- ejemplo corto con indentación manual:
+            ul.lista
+                li.elemento: a(href="#").enlace Enlace 1
+                li.elemento: a(href="#").enlace Enlace 2
+                li.elemento: a(href="#").enlace Enlace 3
+
+            //- Otro ejemplo de indentacion manual:
+            .caja: .subcaja: p Hola
