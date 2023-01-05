@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Lucida Sans", Arial;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.caja {
+  border: 1px solid black;
+  color: white;
+  background-color: coral;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  margin: 12px;
+  float: left;
+}
+.caja.caja2 {
+  background-color: lightcoral;
+}
+.caja.caja3 {
+  background-color: lawngreen;
+}
+.caja.caja4 {
+  background-color: lightblue;
+  width: 150px;
+  height: 150px;
+}
