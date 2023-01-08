@@ -20,7 +20,7 @@ body {
   text-align: center;
   line-height: 100px;
   margin: 12px;
-  float: left;
+  display: inline-block;
 }
 .caja.caja2 {
   background-color: lightcoral;
@@ -42,4 +42,8 @@ body {
   margin: 0 auto;
   margin-top: 15px;
   line-height: 70px;
+}
+
+img {
+  width: 125px;
 }
