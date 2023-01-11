@@ -98,5 +98,11 @@ html(lang="es-es")
             h3= `El array esta compuesto por ${personas}`
             h3= `El segundo nombre del array es: ${personas[1]}`
 
-            //- Objetos
-
+            //- Objetos, primero el guión solo y luego tabular el objeto.
+            -
+                const usuario = {
+                        id: 1,
+                        nombre: "Julio Mata",
+                        web: "julioemata.es"
+                }
+            h2= `Los datos del usuario son ID: ${usuario.id} y nombre: ${usuario.nombre}`
