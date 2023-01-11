@@ -7,6 +7,7 @@ html(lang="es-es")
         title Portada | Curso PUG
         //- Estilos CSS
         link(rel="stylesheet", href="css/styles.css")
+        script(src="js/main.js")
     body
 
 
@@ -61,7 +62,7 @@ html(lang="es-es")
                 input(type="submit", value="enviar")
 
             //- Tablas
-            table(border="1")
+            table#tabla(border="1")
                 tr
                     td Linea 1 Celda 1
                     td Linea 1 Celda 2
@@ -70,3 +71,8 @@ html(lang="es-es")
                     td Linea 2 Celda 1
                     td Linea 2 Celda 2
                     td Linea 2 Celda 3
+
+            br
+            //- Botones con función en JS
+            button(onClick= "miFuncion1()") Alerta JS
+            button(onClick= "miFuncion2()") Dame tu nombre

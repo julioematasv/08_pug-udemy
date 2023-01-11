@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portada | Curso PUG</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js"></script>
   </head>
   <body>
     <div>
@@ -36,7 +37,7 @@
         <input type="email" name="email" placeholder="e-Mail"><br>
         <input type="submit" value="enviar">
       </form>
-      <table border="1">
+      <table id="tabla" border="1">
         <tr>
           <td>Linea 1 Celda 1</td>
           <td>Linea 1 Celda 2</td>
@@ -47,7 +48,9 @@
           <td>Linea 2 Celda 2</td>
           <td>Linea 2 Celda 3</td>
         </tr>
-      </table>
+      </table><br>
+      <button onClick="miFuncion1()">Alerta JS</button>
+      <button onClick="miFuncion2()">Dame tu nombre</button>
     </div>
   </body>
 </html>
