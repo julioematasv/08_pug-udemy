@@ -76,3 +76,27 @@ html(lang="es-es")
             //- Botones con función en JS
             button(onClick= "miFuncion1()") Alerta JS
             button(onClick= "miFuncion2()") Dame tu nombre
+
+
+            //- Variables en pug, deben comenzar por un guión medio al
+            //- declararlas.
+
+            -let nombre = "Julio"
+            -const apellido = "Mata"
+
+            //- Imprimir variables, ejemplo escritura directa en html
+
+            br
+            h2= nombre + " " + apellido
+
+            //- También se pueden usar las templates de string:
+
+            h3= `El usuario es ${nombre} ${apellido}`
+
+            //- Arrays, se definen igual que en javascript
+            -const personas = ["Julio", " Carlos", " Yanira"]
+            h3= `El array esta compuesto por ${personas}`
+            h3= `El segundo nombre del array es: ${personas[1]}`
+
+            //- Objetos
+
