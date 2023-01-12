@@ -106,3 +106,12 @@ html(lang="es-es")
                         web: "julioemata.es"
                 }
             h2= `Los datos del usuario son ID: ${usuario.id} y nombre: ${usuario.nombre}`
+
+            //- condicionales
+
+            -let activo = true
+
+            if activo
+                h2: strong.activo Activado
+            else
+                h2: strong.inactivo Desactivado
