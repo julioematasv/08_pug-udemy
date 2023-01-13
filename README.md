@@ -14,3 +14,5 @@ Los cursos son de dos Instructores.
     * Crea Sitios y Aplicaciones Web fácil y rápidamente con PUG. (año 2020).
 2. Victor Robles:
     * Curso de PUG desde cero: El más completo en Español. (año 2022).
+   
+Estoy practicando nuevamente con PUG.
