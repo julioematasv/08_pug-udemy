@@ -115,3 +115,48 @@ html(lang="es-es")
                 h2: strong.activo Activado
             else
                 h2: strong.inactivo Desactivado
+
+            //- condición ternaria
+
+            br
+
+            h1: strong(class= activo ? "activo" : "inactivo") ¿Esta activado?
+
+            //- condición unless
+            br
+            -const logged = false
+
+            unless logged
+                h1.azul Identificate por favor.
+
+            //- Bucles (2 tipos, el while y el each)
+            //- por ejemplo para listas: con while
+            -let numero1 = 1
+            -let numero2 = 1
+            ul
+                while numero1 <= 10
+                    li= numero1++
+            br
+
+            ul
+                while numero2 <= 10
+                    li= `Elemento número ${numero2++}`
+
+            br
+
+            //- Usando el bucle each (parecido al for each)
+            -const lenguajes = ["Javascript", "PHP", "Python", "CSS"]
+            h1 Lenguajes de Programación
+            ul
+                each lenguaje in lenguajes
+                    li= `Curso de ${lenguaje}`
+
+            br
+            //- Usando el bucle each con else
+            -let lenguajes2 = []
+            h1 Lenguajes de Programación
+            ul
+                each lenguaje in lenguajes2
+                    li= `Curso de ${lenguaje}`
+                else
+                    h2: strong No hay lenguajes actualmente.
