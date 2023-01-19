@@ -9,91 +9,101 @@
     <script src="js/main.js"></script>
   </head>
   <body>
-    <div>
-      <h1>Hola estoy aprendiendo PUG</h1>
-      <p><span>Así se indenta con PUG</span></p>
-      <!-- Este comentario si se ve porque no lleva el guión--><a href="http://www.julioemata.es" title="Sitio Julio Mata" target="_blank">Mi sitio Web</a>
-      <div class="caja caja1">caja 1</div>
-      <div class="caja caja2">caja 2</div>
-      <div class="caja caja3">caja 3</div>
-      <div class="caja caja4">caja 4</div><img src="img/logoLaragon2.png" alt="Logo">
-      <ul class="lista">
-        <li class="elemento"><a class="enlace" href="#">Enlace 1</a></li>
-        <li class="elemento"><a class="enlace" href="#">Enlace 2</a></li>
-        <li class="elemento"><a class="enlace" href="#">Enlace 3</a></li>
-      </ul>
-      <ul class="lista">
-        <li class="elemento"><a class="enlace" href="#">Enlace 1</a></li>
-        <li class="elemento"><a class="enlace" href="#">Enlace 2</a></li>
-        <li class="elemento"><a class="enlace" href="#">Enlace 3</a></li>
-      </ul>
-      <div class="caja">
-        <div class="subcaja">
-          <p>Hola</p>
+    <header class="cabecera">
+      <h1>Header por defecto</h1>
+    </header>
+    <hr>
+    <section id="principal">
+      <div>
+        <h1>Hola estoy aprendiendo PUG</h1>
+        <p><span>Así se indenta con PUG</span></p>
+        <!-- Este comentario si se ve porque no lleva el guión--><a href="http://www.julioemata.es" title="Sitio Julio Mata" target="_blank">Mi sitio Web</a>
+        <div class="caja caja1">caja 1</div>
+        <div class="caja caja2">caja 2</div>
+        <div class="caja caja3">caja 3</div>
+        <div class="caja caja4">caja 4</div><img src="img/logoLaragon2.png" alt="Logo">
+        <ul class="lista">
+          <li class="elemento"><a class="enlace" href="#">Enlace 1</a></li>
+          <li class="elemento"><a class="enlace" href="#">Enlace 2</a></li>
+          <li class="elemento"><a class="enlace" href="#">Enlace 3</a></li>
+        </ul>
+        <ul class="lista">
+          <li class="elemento"><a class="enlace" href="#">Enlace 1</a></li>
+          <li class="elemento"><a class="enlace" href="#">Enlace 2</a></li>
+          <li class="elemento"><a class="enlace" href="#">Enlace 3</a></li>
+        </ul>
+        <div class="caja">
+          <div class="subcaja">
+            <p>Hola</p>
+          </div>
         </div>
+        <form action="#">
+          <input type="text" name="nombre" placeholder="Nombre"><br>
+          <input type="email" name="email" placeholder="e-Mail"><br>
+          <input type="submit" value="enviar">
+        </form>
+        <table id="tabla" border="1">
+          <tr>
+            <td>Linea 1 Celda 1</td>
+            <td>Linea 1 Celda 2</td>
+            <td>Linea 1 Celda 3</td>
+          </tr>
+          <tr>
+            <td>Linea 2 Celda 1</td>
+            <td>Linea 2 Celda 2</td>
+            <td>Linea 2 Celda 3</td>
+          </tr>
+        </table><br>
+        <button onClick="miFuncion1()">Alerta JS</button>
+        <button onClick="miFuncion2()">Dame tu nombre</button><br>
+        <h2>Julio Mata</h2>
+        <h3>El usuario es Julio Mata</h3>
+        <h3>El array esta compuesto por Julio, Carlos, Yanira</h3>
+        <h3>El segundo nombre del array es:  Carlos</h3>
+        <h2>Los datos del usuario son ID: 1 y nombre: Julio Mata</h2>
+        <h2><strong class="activo">Activado</strong></h2><br>
+        <h1><strong class="activo">¿Esta activado?</strong></h1><br>
+        <h1 class="azul">Identificate por favor.</h1>
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+          <li>7</li>
+          <li>8</li>
+          <li>9</li>
+          <li>10</li>
+        </ul><br>
+        <ul>
+          <li>Elemento número 1</li>
+          <li>Elemento número 2</li>
+          <li>Elemento número 3</li>
+          <li>Elemento número 4</li>
+          <li>Elemento número 5</li>
+          <li>Elemento número 6</li>
+          <li>Elemento número 7</li>
+          <li>Elemento número 8</li>
+          <li>Elemento número 9</li>
+          <li>Elemento número 10</li>
+        </ul><br>
+        <h1>Lenguajes de Programación</h1>
+        <ul>
+          <li>Curso de Javascript</li>
+          <li>Curso de PHP</li>
+          <li>Curso de Python</li>
+          <li>Curso de CSS</li>
+        </ul><br>
+        <h1>Lenguajes de Programación</h1>
+        <ul>
+          <h2><strong>No hay lenguajes actualmente.</strong></h2>
+        </ul>
       </div>
-      <form action="#">
-        <input type="text" name="nombre" placeholder="Nombre"><br>
-        <input type="email" name="email" placeholder="e-Mail"><br>
-        <input type="submit" value="enviar">
-      </form>
-      <table id="tabla" border="1">
-        <tr>
-          <td>Linea 1 Celda 1</td>
-          <td>Linea 1 Celda 2</td>
-          <td>Linea 1 Celda 3</td>
-        </tr>
-        <tr>
-          <td>Linea 2 Celda 1</td>
-          <td>Linea 2 Celda 2</td>
-          <td>Linea 2 Celda 3</td>
-        </tr>
-      </table><br>
-      <button onClick="miFuncion1()">Alerta JS</button>
-      <button onClick="miFuncion2()">Dame tu nombre</button><br>
-      <h2>Julio Mata</h2>
-      <h3>El usuario es Julio Mata</h3>
-      <h3>El array esta compuesto por Julio, Carlos, Yanira</h3>
-      <h3>El segundo nombre del array es:  Carlos</h3>
-      <h2>Los datos del usuario son ID: 1 y nombre: Julio Mata</h2>
-      <h2><strong class="activo">Activado</strong></h2><br>
-      <h1><strong class="activo">¿Esta activado?</strong></h1><br>
-      <h1 class="azul">Identificate por favor.</h1>
-      <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
-        <li>5</li>
-        <li>6</li>
-        <li>7</li>
-        <li>8</li>
-        <li>9</li>
-        <li>10</li>
-      </ul><br>
-      <ul>
-        <li>Elemento número 1</li>
-        <li>Elemento número 2</li>
-        <li>Elemento número 3</li>
-        <li>Elemento número 4</li>
-        <li>Elemento número 5</li>
-        <li>Elemento número 6</li>
-        <li>Elemento número 7</li>
-        <li>Elemento número 8</li>
-        <li>Elemento número 9</li>
-        <li>Elemento número 10</li>
-      </ul><br>
-      <h1>Lenguajes de Programación</h1>
-      <ul>
-        <li>Curso de Javascript</li>
-        <li>Curso de PHP</li>
-        <li>Curso de Python</li>
-        <li>Curso de CSS</li>
-      </ul><br>
-      <h1>Lenguajes de Programación</h1>
-      <ul>
-        <h2><strong>No hay lenguajes actualmente.</strong></h2>
-      </ul>
-    </div>
+    </section>
+    <hr>
+    <footer class="pie">
+      <h3>Pie de página por defecto.</h3>
+    </footer>
   </body>
 </html>

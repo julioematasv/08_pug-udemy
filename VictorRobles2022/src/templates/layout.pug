@@ -1,0 +1,23 @@
+doctype html
+html(lang="es-es")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Portada | Curso PUG
+        //- Estilos CSS
+        link(rel="stylesheet", href="css/styles.css")
+        script(src="js/main.js")
+    body
+        header.cabecera
+            block header
+                h1 Header por defecto
+        hr
+        section#principal
+            block principal
+                h1 Contenido por defecto
+
+        hr
+        footer.pie
+            block piePagina
+                h3 Pie de página por defecto.

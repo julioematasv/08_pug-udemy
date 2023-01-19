@@ -11,6 +11,10 @@ body {
   margin: 0 auto;
 }
 
+hr {
+  margin: 1rem 0;
+}
+
 .caja {
   border: 1px solid black;
   color: white;
@@ -58,4 +62,31 @@ img {
 
 .azul {
   background-color: #0a6ebd;
+}
+
+.cabecera, .pie {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+  background-color: #1e1e1e;
+  color: white;
+  border-bottom: 2px solid orangered;
+}
+.cabecera.pie, .pie.pie {
+  border-bottom: none;
+  border-top: 2px solid orangered;
+}
+
+#form1 {
+  width: 50%;
+  margin: 0 auto;
+  padding: 3rem;
+}
+#form1 input, #form1 label {
+  width: 100%;
+  display: inline-block;
+}
+#form1 label {
+  margin-top: 1rem;
 }
