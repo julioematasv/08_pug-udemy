@@ -1,0 +1,12 @@
+mixin lista1(elementos)
+    -let inicio = 0
+    -const items = ["Portada", "Articulo", "Contacto"]
+
+    strong Lista generada automaticamente.
+    br
+    ul
+        br
+        while inicio < elementos
+            li= `Elemento ${items[inicio]}`
+            -inicio++
+            br

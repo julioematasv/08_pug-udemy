@@ -1,6 +1,12 @@
 //- Usando los block y los extends
 extends ../templates/layout.pug
+include ../mixins/lorem.pug
+include ../mixins/listas.pug
 
 block principal
     div
         h1 Contenido de página Articulo.html
+        hr
+        +generar_lorem(5)
+        hr
+        +lista1(3)
