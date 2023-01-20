@@ -1,11 +1,11 @@
 block header
-    .envoltorioHero
-        h1.titulo-principal Titulo de la Web
-        .envoltorioContenido
-            p.txtHero Texto de la Cabecera Hero
-            .botones
-                button.btnPrimario Botón Primario
-                button.btnSecundario Botón Secundario
-        .overflowHidden
-            .contentImagen
-                img(src="./img/bg-1600x800.jpg", alt="fondo")
+    .px-4.pt-5.my-5.text-center.border-bottom
+        h1.display-4.fw-bold Titulo de la Web
+        .col-lg-6.mx-auto
+            p.lead.mb-4 Texto de la Cabecera Hero
+            .d-grid.gap-2.d-sm-flex.justify-content-sm-center.mb-5
+                button.btn.btn-primary.btn-lg.px-4.me-sm-3 Botón Primario
+                button.btn.btn-outline-secondary.btn-lg.px-4 Botón Secundario
+        .overflow-hidden
+            .container.px-5
+                img.img-fluid.border.rounded-3.shadow-lg.mb-4(src="./img/bg-1600x800.jpg")
