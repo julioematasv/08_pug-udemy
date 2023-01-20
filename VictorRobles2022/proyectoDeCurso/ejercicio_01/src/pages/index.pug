@@ -1,6 +1,10 @@
 //- Usando los block y los extends
 extends ../templates/layoutPrincipal.pug
 
+
+block header
+    include ../templates/__heroLayout.pug
+
 block principal
     .wrapper
         h1 Contenido de Remplazo
