@@ -2,17 +2,16 @@
 extends ../templates/layoutPrincipal.pug
 
 block tituloPagina
-    | Portada -
+    | Multimedia -
 
 block header
     include ../templates/__menuLayout.pug
-    include ../templates/__heroLayout.pug
 block titulo
-    h3 Artículos del Blog
+    h3 Contenido de página multimedia
 block principal
-    include ../templates/__blogLayout.pug
-    include ../mixins/__articulosBlog.pug
-    +articulos(6)
+    .videoContent
+        video(poster="media/portadaVideo.png" controls)
+            source(src="media/video.mp4")
 
 block piePagina
     include ../templates/__footerLayout.pug

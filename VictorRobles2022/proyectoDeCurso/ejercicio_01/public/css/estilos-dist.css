@@ -50,4 +50,10 @@
   display: inline-block;
   width: 100%;
 }
+
+.videoContent {
+  width: 700px;
+  height: 500px;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=estilos-dist.css.map */

@@ -2,17 +2,13 @@
 extends ../templates/layoutPrincipal.pug
 
 block tituloPagina
-    | Portada -
+    | Contacto -
 
 block header
     include ../templates/__menuLayout.pug
-    include ../templates/__heroLayout.pug
 block titulo
-    h3 Artículos del Blog
+    h3 Contenido de página contacto
 block principal
-    include ../templates/__blogLayout.pug
-    include ../mixins/__articulosBlog.pug
-    +articulos(6)
 
 block piePagina
     include ../templates/__footerLayout.pug
