@@ -1,0 +1,10 @@
+mixin articulos(numArticulos)
+    -let contador = 0
+    while contador < numArticulos
+        article
+            img(src="img/css.png" alt="imagen css")
+            h3 Título del artículo
+            time(datatime="2023-02-06") 6 de febrero
+            p Descripción del artículo.
+
+        -contador++

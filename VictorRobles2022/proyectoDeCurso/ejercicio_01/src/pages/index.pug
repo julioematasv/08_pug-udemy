@@ -11,6 +11,8 @@ block titulo
     h3 Artículos del Blog
 block principal
     include ../templates/__blogLayout.pug
+    include ../mixins/__articulosBlog.pug
+    +articulos(4)
 
 block piePagina
     include ../templates/__footerLayout.pug

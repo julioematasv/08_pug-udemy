@@ -1,0 +1,8 @@
+article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+article img {
+  width: 120px;
+}
