@@ -1,11 +1,14 @@
 //- Usando los block y los extends
 extends ../templates/layoutPrincipal.pug
 
+block tituloPagina
+    | Portada -
 
 block header
     include ../templates/__menuLayout.pug
     include ../templates/__heroLayout.pug
-
+block titulo
+    h3 Artículos del Blog
 block principal
     include ../templates/__blogLayout.pug
 
