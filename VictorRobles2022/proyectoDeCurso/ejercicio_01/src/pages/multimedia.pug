@@ -7,11 +7,22 @@ block tituloPagina
 block header
     include ../templates/__menuLayout.pug
 block titulo
-    h3 Contenido de página multimedia
+    .titulo-seccion--h3
+        h3 Contenido de página multimedia
 block principal
     .videoContent
+        h4 Big Buck Bunny, la historia de un conejo gigante.
         video(poster="media/portadaVideo.png" controls)
             source(src="media/video.mp4")
+        p Big Buck Bunny cuenta la historia de un conejo gigante con un corazón más grande que él. Cuando un día soleado tres roedores lo acosan con rudeza, algo se rompe... ¡y el conejo ya no es más un conejito! En la típica tradición de los dibujos animados, prepara a los desagradables roedores una venganza cómica. Los resultados del proyecto de película abierta de Peach han sido licenciados bajo la licencia Creative Commons Attribution 3.0.
 
+    .separadorContenido
+
+    .audioContent
+        h4 Audio
+        audio(controls)
+            source(src="media/audio.mp3")
+        p El elemento audio se usa para insertar contenido de audio en un documento HTML o XHTML. El elemento audio se agregó como parte de HTML 5
+        p Este es un pequeño archivo de audio que usamos aqí para ejemplo del proyecto de PUG.
 block piePagina
     include ../templates/__footerLayout.pug
