@@ -83,4 +83,10 @@
   margin: 2rem auto;
   padding: 2rem;
 }
+
+.toTop {
+  text-decoration: none;
+  color: #09A65A;
+  font-weight: bold;
+}
 /*# sourceMappingURL=estilos-dist.css.map */
