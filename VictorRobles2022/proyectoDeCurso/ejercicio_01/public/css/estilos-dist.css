@@ -51,9 +51,15 @@
   width: 100%;
 }
 
-.videoContent, .audioContent {
+.videoContent {
   width: 700px;
   height: 500px;
+  margin: 0 auto;
+}
+
+.audioContent {
+  width: 700px;
+  height: 250px;
   margin: 0 auto;
 }
 
