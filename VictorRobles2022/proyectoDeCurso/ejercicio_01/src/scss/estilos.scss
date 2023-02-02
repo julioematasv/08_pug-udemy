@@ -73,3 +73,23 @@
   color: #09A65A;
   font-weight: bold;
 }
+
+.tablaDiaria {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #424242;
+
+  & td {
+    border: 1px solid #848484;
+    padding-left: 0.5rem;
+  }
+}
+
+tr.encabezados {
+  text-align: center;
+  border-bottom: 1px solid #848484;
+
+  & > th {
+    border: 1px solid #848484;
+  }
+}

@@ -1,6 +1,7 @@
 //- Usando los block y los extends
 extends ../templates/layoutPrincipal.pug
 
+
 block tituloPagina
     | Dieta -
 
@@ -10,6 +11,19 @@ block titulo
     .titulo-seccion--h3
         h3 Contenido de página dieta
 block principal
+    include ../mixins/__comidasDieta.pug
+    table.tablaDiaria
+        tr.encabezados
+            th Lunes
+            th Martes
+            th Miercoles
+            th Jueves
+            th Viernes
+        +comida("Manzana")
+        +comida("Naranja")
+        +comida("Yogurt")
+        +comida("Kiwi")
+        +comida("Pera")
 
 block piePagina
     include ../templates/__footerLayout.pug
