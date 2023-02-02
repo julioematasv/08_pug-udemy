@@ -1,3 +1,9 @@
+
 mixin comida(plato)
     td.comida= plato
+
+mixin cabecera()
+    -let lista = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes"]
+    each item in lista
+    td= item
 
