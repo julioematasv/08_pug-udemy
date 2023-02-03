@@ -29,10 +29,50 @@
       </nav>
     </header>
     <div class="titulo-seccion--h3">
-      <h3>Contenido de página contacto</h3>
+      <h3>Formulario de Contacto</h3>
     </div>
     <main>
       <section id="principal">
+        <div class="container col-md-12">
+          <form class="row g-3" action="#">
+            <div class="d-flex flex-row justify-content-center">
+              <div class="col-md-6 bg-info text-white px-5">
+                <div class="mb-3">
+                  <label class="form-label" for="nombre">Nombre</label>
+                  <input class="form-control" name="nombre" type="text" id="nombre" placeholder="Nombre">
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" for="apellido">Apellido</label>
+                  <input class="form-control" name="apellido" type="text" id="apellido" placeholder="Apellido">
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" for="email">e-Mail</label>
+                  <input class="form-control" name="email" type="email" id="email" placeholder="e-mail">
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" for="edad">Edad</label>
+                  <input class="form-control" name="edad" type="email" id="edad" placeholder="Edad">
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" for="genero">Genero</label>
+                  <select name="genero" id="genero">
+                    <option value="Elegir">Elegir Uno</option>
+                    <option value="Hombre">Hombre</option>
+                    <option value="Mujer">Mujer</option>
+                    <option value="Ninguno">Ninguno</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" for="motivo">Motivo Consulta</label>
+                  <textarea class="form-control" name="motivo" id="motivo" rows="5"></textarea>
+                </div>
+                <div class="mb-3">
+                  <input class="form-control bg-primary text-white" type="submit" value="Enviar">
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
       </section>
     </main>
     <div class="pie">
