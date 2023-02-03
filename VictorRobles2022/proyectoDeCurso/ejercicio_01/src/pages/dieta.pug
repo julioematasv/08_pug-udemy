@@ -19,13 +19,37 @@ block principal
             th Miercoles
             th Jueves
             th Viernes
-        +comida("Manzana")
-        +comida("Naranja")
-        +comida("Yogurt")
-        +comida("Kiwi")
-        +comida("Pera")
+        tr
+            +comida("Manzana")
+            +comida("Naranja")
+            +comida("Yogurt")
+            +comida("Kiwi")
+            +comida("Pera")
+    br
 
     table.tablaDiaria
+        tr.encabezados
+            each val in ["tipo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes"]
+                th= val
+
+        tr
+            each val in ["desayuno", "Tostada", "Cereales", "Yogurt con granola", "Bol frutas", "Tostada"]
+                td= val
+        tr
+            each val in ["merienda", "Manzana", "Naranja", "Mandarina", "Kiwi", "Pera"]
+                td= val
+        tr
+            each val in ["comida", "Pollo", "Pescado", "Pavo", "Carne", "Huevos"]
+                td= val
+        tr
+            each val in ["merienda", "Manzana", "Naranja", "Mandarina", "Kiwi", "Pera"]
+                td= val
+        tr
+            each val in ["cena", "Pollo", "Pescado", "Pavo", "Carne", "Huevos"]
+                td= val
+
+
+
 
 block piePagina
     include ../templates/__footerLayout.pug
